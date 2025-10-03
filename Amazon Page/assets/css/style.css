@@ -50,6 +50,7 @@ main {
 }
 .first {
   background-image: url(../images/bg-image.png);
+  background-size: contain;
   color: white;
   text-align: center;
   padding-top: 70px;
@@ -59,7 +60,7 @@ main {
 #second a {
   text-decoration: none;
   color: rgb(27, 139, 204);
-  padding-left: 20px;
+  padding-left: 15px;
 }
 #second h3 {
   text-align: left;
@@ -67,15 +68,14 @@ main {
 #second {
   background-color: white;
   margin-top: 20px;
-  padding-left: 20px;
+  padding-left: 25px;
   padding-top: 20px;
 }
 #second img {
   display: inline-block;
-  width: 23%;
-  vertical-align: top;
-  height: 30em;
-  margin-right: 20px;
+  width: 25em;
+  height: 25em;
+  margin-right: 30px;
   border-radius: 8%;
   margin-top: 20px;
   padding-bottom: 20px;
@@ -92,7 +92,7 @@ main h3:last-of-type {
 }
 main a:last-of-type {
   text-decoration: none;
-  color: rgb(83, 83, 253);
+  color: rgb(27, 139, 234);
 }
 footer {
   margin-top: 20px;
@@ -112,5 +112,5 @@ footer p {
 .second-logo img {
   width: 200px;
   padding-top: 40px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
